@@ -1,1 +1,1 @@
-# Electric Control Workshop
+# Electrical Control Workshop
