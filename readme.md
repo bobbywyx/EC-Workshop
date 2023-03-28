@@ -111,6 +111,9 @@ notice *各种元件不可避免都具有一定的电阻电容电感，此处所
 1. 安装[Arduino IDE](https://www.arduino.cc/en/software)（建议安装 ide 2）
 2. 开箱即用，左上角可以指定开发板类型和串口端口号
 
+> tips:
+> 可以在 `File - Preferences` 里面开启自动补全（比较下面位置的 Editor Quick Suggestions）
+
 ### 2. VSCode + Platform IO
 
 > 优点：可以使用大家熟悉的工具开发，vscode拥有的各种插件都可以使用，完整的c/cpp开发逻辑
@@ -120,8 +123,9 @@ notice *各种元件不可避免都具有一定的电阻电容电感，此处所
 2. 安装c/c++，pio插件
 3. 打开pio插件主页，新建项目（建立项目的时候需要科学上网）指定开发板类型，项目位置和名称等
 4. 打开刚创建的项目，可以在底部看到验证（编译）、烧写、调试等功能
+<img decoding="async" src="./img/code_bottom.png" height = "80">
 
-> 踩坑：
+> tips:
 >  
 > 1. 建议对pio插件采用只在某些工作区启用，不然你的vscode会很卡。
 > 2. pio插件与clangd插件冲突，喜欢用clangd代码提示的建议在工作区内禁用clangd且启用c/c++插件（虽然intelli sense代码提示很蠢）
