@@ -119,10 +119,11 @@ notice *各种元件不可避免都具有一定的电阻电容电感，此处所
 > 优点：可以使用大家熟悉的工具开发，vscode拥有的各种插件都可以使用，完整的c/cpp开发逻辑
 > 缺点：需要配置环境、插件，platform IO相对臃肿，而且需要科学上网，第一次使用可能很难找到各种功能
 
-1. 安装vscode，python
+1. 安装[vscode](https://code.visualstudio.com/)，[python](https://www.python.org/)
 2. 安装c/c++，pio插件
 3. 打开pio插件主页，新建项目（建立项目的时候需要科学上网）指定开发板类型，项目位置和名称等
 4. 打开刚创建的项目，可以在底部看到验证（编译）、烧写、调试等功能
+
 <img decoding="async" src="./img/code_bottom.png" height = "80">
 
 > tips:
@@ -136,7 +137,7 @@ notice *各种元件不可避免都具有一定的电阻电容电感，此处所
 > 优点：Clion代码开发体验极好
 > 缺点：需要配置环境、插件，不习惯ide项目管理的同学可能不适应，库安装不太方便
 
-1. 安装clion，pio插件（因为本人已经先用vscode装好pio了所以不确定clion是否需要另外安装pio）
+1. 安装[clion](https://www.jetbrains.com/clion/)，pio插件（因为本人已经先用vscode装好pio了所以不确定clion是否需要另外安装pio）
 2. 新建项目时选择嵌入式--PlatformIO，然后指定platformio.exe的路径。（建议添加到环境变量，否则后续步骤可能出问题）
 3. 选择配置文件（此处我们使用mega2560，选择对应的配置就行）
 4. 右上角可以指定配置，下载就选择下载，调试就选择调试（虽然两者分开很奇怪但是pio就是这样没办法）
