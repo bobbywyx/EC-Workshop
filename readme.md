@@ -106,6 +106,7 @@ notice *各种元件不可避免都具有一定的电阻电容电感，此处所
 ### 1. Arduino IDE
 
 > 优点：烧写代码相当方便，自带串口调试，开发板选型，代码示例，以及arduino第三方库
+>
 > 缺点：Arduino IDE代码功能相对简陋，启动慢，开发体验不是很好，默认.ino文件不方便项目管理
 
 1. 安装[Arduino IDE](https://www.arduino.cc/en/software)（建议安装 ide 2）
@@ -117,6 +118,7 @@ notice *各种元件不可避免都具有一定的电阻电容电感，此处所
 ### 2. VSCode + Platform IO
 
 > 优点：可以使用大家熟悉的工具开发，vscode拥有的各种插件都可以使用，完整的c/cpp开发逻辑
+>
 > 缺点：需要配置环境、插件，platform IO相对臃肿，而且需要科学上网，第一次使用可能很难找到各种功能
 
 1. 安装[vscode](https://code.visualstudio.com/)，[python](https://www.python.org/)
@@ -135,6 +137,7 @@ notice *各种元件不可避免都具有一定的电阻电容电感，此处所
 ### 3. Clion + Platform IO
 
 > 优点：Clion代码开发体验极好
+>
 > 缺点：需要配置环境、插件，不习惯ide项目管理的同学可能不适应，库安装不太方便
 
 1. 安装[clion](https://www.jetbrains.com/clion/)，pio插件（因为本人已经先用vscode装好pio了所以不确定clion是否需要另外安装pio）
