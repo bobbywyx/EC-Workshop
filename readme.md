@@ -552,3 +552,30 @@ void loop() {
 ----------
 
 ## demo
+
+舵机驱动
+``` cpp
+#include <Servo.h>
+
+Servo myservo;  // 定义Servo对象来控制
+int pos = 0;    
+
+void setup() {
+  myservo.attach(2);  // 控制线连接数字2
+}
+
+void loop() {
+  for (pos = 0; pos <= 90; pos ++) { // 0°到90°
+    myservo.write(pos);       
+    delay(5);       
+  }
+  for (pos = 90; pos >= 0; pos --) { // 从90°到0°
+    myservo.write(pos);         
+    delay(5); 
+  }
+}
+```
+
+PS2控制器 见示例代码
+
+那么结合起来试一试？
