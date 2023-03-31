@@ -462,7 +462,7 @@ PID控制器是非常经典的一种控制算法，是不需要知道系统的�
 
 由于PID控制器是线性控制器，而现实中，大多是非线性的。用线性近似非线性，精度会有所下降。
 
-<img decoding="async" src="./img/pid.png" width="100%">
+<img decoding="async" src="./img/PID.png" width="100%">
 
 ##### P(比例) Control 
 主要调节作用，可以加快调节，减小误差，存在稳态误差
@@ -487,7 +487,7 @@ D分量：
 缺点：容易受到干扰，对噪声有放大作用，会减弱系统的抗干扰性。
 
 
-<img decoding="async" src="./img/pid_2.png" width="50%">
+<img decoding="async" src="./img/PID_2.png" width="50%">
 
 ·PID控制达到目标量
 
