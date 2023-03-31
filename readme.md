@@ -384,9 +384,13 @@ PWM就是脉冲宽度调制，通过调节占空比就可以调节脉冲宽度�
 arduino的输出口无法提供足够大的电流，需要通过arduino控制电机驱动模块来间接控制电机
 
 以官方提供的L298N为例
+
 <img decoding="async" src="./img/L298N.png" width="70%">
+
 根据说明手册，我们可以得知
+
 <img decoding="async" src="./img/L298N_2.png" width="100%">
+
 此时L298N~~相当于大号继电器~~可以通过逻辑上的输入IN1，IN2来控制电机的转与不转。
 
 但是似乎和开关控制一模一样？
@@ -407,9 +411,11 @@ arduino的输出口无法提供足够大的电流，需要通过arduino控制电
 所以舵机并不需要像上面电机一样需要控制模块来对电源进行脉宽调制，而是直接输入PWM信号
 
 <img decoding="async" src="./img/舵机输入.png" width="100%">
+
 · 一种典型的舵机输入
 
 <img decoding="async" src="./img/舵机控制_2.png" width="100%">
+
 · 一种典型的PWM舵机控制方法
 
 ----------
@@ -433,6 +439,7 @@ arduino的输出口无法提供足够大的电流，需要通过arduino控制电
 - 当打开rumble时X键会有震动反馈，当然，比较难蚌
 - 手柄亮灯模式下摇杆是模拟输出，不亮灯模式下摇杆推到底输出1
 ##### 代码实现
+
 <img decoding="async" src="./img/手柄.png" width="100%">
 
 ```
