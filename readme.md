@@ -500,7 +500,8 @@ D分量：
 更好的实现功能->计时器/中断回调
 
 使用外部库的一种实现案例
-```
+
+```cpp
 #include <arduino-timer.h>
 
 auto timer = timer_create_default();
@@ -525,7 +526,8 @@ void loop() {
 ```
 
 MSTimer2库
-```
+
+```cpp
 #include <MSTimer2.h>
 
 auto timer = timer_create_default();
@@ -546,6 +548,7 @@ void setup() {
 void loop() {
 }
 ```
+
 ----------
 
 ## demo
