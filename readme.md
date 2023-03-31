@@ -466,11 +466,14 @@ PID控制器是非常经典的一种控制算法，是不需要知道系统的�
 <img decoding="async" src="./img/PID.png" width="100%">
 
 ##### P(比例) Control 
+
 主要调节作用，可以加快调节，减小误差，存在稳态误差
+
 <img decoding="async" src="./img/P.png" width="50%">
 
 
 ##### PI(积分) Control
+
 PI控制器，它添加与误差对时间积分成比例的项
 
 I分量：
@@ -480,6 +483,7 @@ I分量：
 <img decoding="async" src="./img/PI.png" width="50%">
 
 ##### PID(微分) Control
+
 PID控制器就是PI控制器加上与误差对时间的导数成比例的一项
 
 D分量：
